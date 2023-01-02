@@ -96,9 +96,10 @@ a{
     transition: 0.9s;
 }
 .icon i{
-    margin: 0px 2.5px;
+    margin: 0px 5px;
     color: rgb(0, 65, 116);
-    transition: 0.4s;
+    font-size: 20px;
+    transition: 0.5s;
 }
 .icon .fa-facebook-messenger:hover{
     color: rgb(8, 89, 240);
@@ -272,7 +273,6 @@ a{
     border: rgb(0, 128, 128) solid;
     margin: 5px;
     border-radius: 20px;
-    padding-top: 10px;
 }
 .info:hover{
     background-color: steelblue;
@@ -376,14 +376,14 @@ a{
 }
 .cartoon{
     display: flex;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 .final_f h1{
     text-align: center;
     color: rgb(2, 54, 114);
 }
 .final_f {
-    margin-left: 120px;
+    margin-left: 90px;
     background-image: url(../images/bg.jpg);
     border-radius: 20px;
 }
