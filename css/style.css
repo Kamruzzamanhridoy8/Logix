@@ -1,0 +1,478 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 65, 116);
+}
+.header{
+    background-color: #ddd;
+    height: 50px;
+    line-height: 50px;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    /* background-color: rgb(160, 188, 241); */
+    height: 50px;
+}
+.menu,.nav .menu_ber{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.logo a img{
+    height: 50px;
+}
+.search{
+    height: 30px;
+    width: 230px;
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.search i{
+    margin-top: 7.1px;
+    display: flex;
+    color:rgb(10, 64, 146);
+}
+.search i:hover{
+    color: rgb(37, 117, 236);
+}
+.search input{
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.nav{
+    padding-right: 50px;
+}
+.nav a{
+    display: inline-block;
+    padding: 0px 8px;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.nav li a:hover{
+    background-color: rgb(10, 64, 146);
+    color: white;
+    border-radius: 5px;
+    transition: 0.9s;
+}
+.dropdown{
+    background-color: #ddd;
+    text-align: center;
+    display: none;
+    line-height: 25px;
+}
+.nav .menu_ber .dropdown li a{
+    width: 46px;
+}
+.menu_ber li:hover .dropdown{
+    display: block;
+    
+}
+.contact button{
+    color: white ;
+    background-color:rgb(0, 65, 116) ;
+    height: 26px;
+    width: 70px;
+    border-radius: 20px;
+    border-style: none;
+}
+.contact button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+}
+.icon i{
+    margin: 0px 2.5px;
+    color: rgb(0, 65, 116);
+    transition: 0.4s;
+}
+.icon .fa-facebook-messenger:hover{
+    color: rgb(8, 89, 240);
+}
+.icon .fa-facebook-f:hover{
+    color: #0D88F0;
+}
+.icon .fa-linkedin-in:hover{
+    color: #2464AD;
+}
+.icon .fa-line:hover{
+    color: #06af2a;
+}
+.icon .fa-twitter:hover{
+    color: #1DA1F2;
+}
+/* ---------------End of the Header------------ */
+
+.contant{
+    height: 400px;
+    width: 100%;
+    /* background-color: black; */
+    display: inline-block;
+    background-image: url(../images/656684.jpg);
+    background-attachment: fixed;
+}
+.slider h1 img{
+    margin-left: 40%;
+    width: 300px;
+    margin-top: 90px;
+
+}
+.slider p{
+    text-align: center;
+    height: 66px;
+    width: 40%;
+    margin-left: 30%;
+    color: rgb(255, 255, 255);
+    
+}
+.slider h1 a{
+    color: white;
+}
+.search_2{
+    height: 40px;
+    width: 400px;
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 37.5%;
+}
+.search_2 i{
+    margin-top: 11.2px;
+    display: flex;
+    color:rgb(10, 64, 146);
+}
+.search_2 i:hover{
+    color: rgb(37, 117, 236);
+}
+.search_2 input{
+    height: 40px;
+    width: 370px;
+    border-radius: 30px;
+    border-style: none;
+    padding-left: 10px;
+}
+/* -----------------end of slider------------------ */
+.caption h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(2, 118, 172);
+}
+.about{
+    /* background-image: url(../images/w.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    height: 550px;
+    background-size: 600px; */
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+.about .pix:hover{
+    background-color: #0573a7d0;
+    border-radius: 30px;
+    transition: .5s;
+    color: white;
+}
+.pix img{
+    height: 300px;
+}
+.pix img.o{
+    margin-left: 32px;
+}
+.hp{
+    height: 100px;
+    width: 300px;
+    text-align: justify;
+    margin-top: -60px;
+    padding: 5px;
+}
+.hp h1{
+    text-align: center;
+}
+.pix{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+/* ----------end of trainer------------ */
+
+.course{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.course .details img{
+    border-radius: 30px;
+    transition: 0.6s;
+}
+.course .details{
+    height: 300px;
+    width: 220px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+}
+.course .details:hover{
+    border-radius: 30px;
+    background-color: teal;
+    color: white;
+    transition: 0.9s;
+}
+.description{
+    max-width: 80%;
+    height: 200px;
+    margin: auto;
+    background-color:rgb(0, 65, 116) ;
+    color: white;
+    border-radius: 0px 30px 0px 30px;
+    padding: 10px;
+    text-align: justify;
+}
+.description h1{
+    text-align: center;
+}
+
+/* --------------end of services----------- */
+.hr hr{
+    margin:30px 0px;
+}
+/* .student_list{
+    max-width: 80%;
+    margin: auto;
+} */
+.developer{
+    
+    height: 250px;
+    max-width: 91%;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+
+}
+.info{
+    border: rgb(0, 128, 128) solid;
+    margin: 5px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.info:hover{
+    background-color: steelblue;
+    color: white;
+    border-color: steelblue;
+    transition: 0.4s;
+}
+.info h1{
+    font-size: 20px;
+    text-align: center;
+}
+.info p{
+    text-align: center;
+    padding-left: 18px;
+}
+.info img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left:30%;
+}
+.info button{
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 113, 128);
+    margin-top: 13px;
+    color: white;
+    
+    
+}
+.info button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    font-weight: bold;
+}
+/* --------end of developer--------- */
+.ifram{
+    max-width: 90%;
+    margin: auto;
+}
+.all_link{
+    display: flex;
+    margin-top: 60px;
+}
+.link iframe{
+    border-radius: 30px;
+    margin-top: 45px;
+}
+.frame_contant h1{
+    text-align: center;
+}
+.frame_contant{
+    margin-left: 30px;
+    text-align: justify;
+}
+/* ---------------end of iframe------------------ */
+.student{
+    max-width: 90%;
+    margin: auto;
+}
+.student_info{
+    display: flex;
+    margin-top: 60px;
+}
+.student_contant{
+    width: 650px;
+    text-align: justify;
+}
+.student_contant h1{
+    text-align: center;
+}
+.student_images{
+    display: flex;
+    margin-left: 180px;
+}
+.main_img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.main_img h5{
+    text-align: center;
+}
+/* -----end of student pannel--------------- */
+.input .final img{
+    height: 600px;
+}
+.form{
+    max-width: 95%;
+    margin: auto;
+}
+.input{
+    display: flex;
+}
+.uy h1{
+    font-size: 50px;
+    width: 300px;
+}
+.cartoon{
+    display: flex;
+    margin-left: 20px;
+}
+.final_f h1{
+    text-align: center;
+    color: rgb(2, 54, 114);
+}
+.final_f {
+    margin-left: 120px;
+    background-image: url(../images/bg.jpg);
+    border-radius: 20px;
+}
+.final_f input{
+    height: 30px;
+    width: 250px;
+    border-radius: 18px;
+    border: none;
+    margin: 0px 10px;
+    padding-left: 5px;
+}
+.final_f button{
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    border-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(2, 106, 138);
+    color: white;
+    font-weight: bold;
+}
+.final_f button:hover{
+    background-color: white;
+    color: black;
+}
+.form_hr hr{
+    margin: 8px 0px;
+}
+/* ----------end of form---------------- */
+.footer{
+   max-width: 100%;
+   margin: auto;
+}
+.footer_info{
+    display: flex;
+    height: 300px;
+    /* background-color: #2464AD; */
+    margin-top: 90px;
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.footer_contant{
+    padding: 30px;
+}
+.footer_contant h1{
+    text-align: center;
+    color: white;
+}
+.footer_contant iframe{
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+}
+.footer_contant ul li{
+    list-style: square;
+}
+.footer_page{
+    display: flex;
+    margin-left: 100px;
+}
+.pages{
+    width: 180px;
+    padding-top: 30px;
+    color: white;
+}
+.contact_footer{
+    margin: 30px 0px 0px 40px;
+    color: white;
+}
+.location{
+    margin-top: 20px;
+}
+.location i{
+    color: white;
+    text-align: center;
+    margin-left: 55px;
+}
+.about_us1{
+    color: white;
+}
+.copyright{
+    height: 30px;
+    background-color: #04356d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright>p,.copyright>p>a{
+    color: white;
+}
